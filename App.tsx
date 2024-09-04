@@ -12,7 +12,7 @@ export default function App() {
     <ThemeContext.Provider value={theme}>
       <SafeAreaView style={theme === 'light' ? styles.container : [styles.container, { backgroundColor: '#17171C' }]}>
         <Text style={theme === 'light' ? styles.textLight : styles.textDark}>
-          Hello World
+        Change  Mode
         </Text>
         <Switch
           value={theme === 'light'}
